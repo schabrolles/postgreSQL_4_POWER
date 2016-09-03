@@ -1,0 +1,31 @@
+ dpkg-buildpackage -rfakeroot -d -us -uc -S -sa
+dpkg-buildpackage: source package postgresql-9.6
+dpkg-buildpackage: source version 9.6~beta4-1.pgdg14.04+ibmmoppslc
+dpkg-buildpackage: source distribution trusty
+dpkg-buildpackage: source changed by Sebastien Chabrolles <s.chabrolles@fr.ibm.com>
+ dpkg-source --before-build postgresql-9.6-9.6~beta4
+ fakeroot debian/rules clean
+dpkg-query: no packages found matching libselinux1-dev
+dh clean
+   dh_testdir
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/data/sources/postgreSQL_4_POWER/postgresql-9.6.beta4/postgresql-9.6-9.6~beta4'
+dpkg-query: no packages found matching libselinux1-dev
+rm -rf build* stamp
+make[1]: Leaving directory '/data/sources/postgreSQL_4_POWER/postgresql-9.6.beta4/postgresql-9.6-9.6~beta4'
+   dh_clean
+ dpkg-source -b postgresql-9.6-9.6~beta4
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building postgresql-9.6 using existing ./postgresql-9.6_9.6~beta4.orig.tar.bz2
+dpkg-source: info: building postgresql-9.6 in postgresql-9.6_9.6~beta4-1.pgdg14.04+ibmmoppslc.debian.tar.xz
+dpkg-source: info: building postgresql-9.6 in postgresql-9.6_9.6~beta4-1.pgdg14.04+ibmmoppslc.dsc
+ dpkg-genchanges -S -sa >../postgresql-9.6_9.6~beta4-1.pgdg14.04+ibmmoppslc_source.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build postgresql-9.6-9.6~beta4
+dpkg-buildpackage: full upload (original source is included)
+Now signing changes and any dsc files...
+ signfile postgresql-9.6_9.6~beta4-1.pgdg14.04+ibmmoppslc.dsc Sebastien Chabrolles <s.chabrolles@fr.ibm.com>
+
+ signfile postgresql-9.6_9.6~beta4-1.pgdg14.04+ibmmoppslc_source.changes Sebastien Chabrolles <s.chabrolles@fr.ibm.com>
+
+Successfully signed dsc and changes files

@@ -1,0 +1,11 @@
+2016-08-31 22:31:21,107 - dput[31028]: uploader.invoke_dput - Uploading postgresql-9.6 using ftp to ppa (host: ppa.launchpad.net; directory: ~s-chabrolles/postgresql4power)
+2016-08-31 22:31:21,107 - dput[31028]: hook.run_hook - running supported-distribution: check whether the target distribution is currently supported (using distro-info)
+2016-08-31 22:31:21,109 - dput[31028]: distro_info_checks.check_supported_distribution - {u'known': [u'release', u'proposed', u'updates', u'backports', u'security'], u'allowed': [u'release']}
+2016-08-31 22:31:21,109 - dput[31028]: hook.run_hook - running checksum: verify checksums before uploading
+2016-08-31 22:31:21,136 - dput[31028]: hook.run_hook - running suite-mismatch: check the target distribution for common errors
+2016-08-31 22:31:21,137 - dput[31028]: hook.run_hook - running check-debs: makes sure the upload contains a binary package
+2016-08-31 22:31:21,138 - dput[31028]: hook.run_hook - running gpg: check GnuPG signatures before the upload
+2016-08-31 22:31:26,859 - dput[31028]: uploader.invoke_dput - Uploading postgresql-9.6_9.6~beta4-1.pgdg16.04+ibmmoppslc.dsc
+2016-08-31 22:31:27,470 - dput[31028]: uploader.invoke_dput - Uploading postgresql-9.6_9.6~beta4.orig.tar.bz2
+2016-08-31 22:33:57,907 - dput[31028]: uploader.invoke_dput - Uploading postgresql-9.6_9.6~beta4-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+2016-08-31 22:33:58,815 - dput[31028]: uploader.invoke_dput - Uploading postgresql-9.6_9.6~beta4-1.pgdg16.04+ibmmoppslc_source.changes
