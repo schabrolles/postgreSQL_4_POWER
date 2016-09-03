@@ -1,0 +1,11 @@
+--- src/backend/port/sysv_shmem.c.old	2016-08-30 17:56:08.693793914 +0200
++++ src/backend/port/sysv_shmem.c	2016-08-30 17:56:28.003794820 +0200
+@@ -357,7 +357,7 @@
+ 		 * MB - 1 of memory. When we do the rounding ourselves, we can use
+ 		 * that space for allocations.
+ 		 */
+-		int			hugepagesize = 2 * 1024 * 1024;
++		int			hugepagesize = 16 * 1024 * 1024;
+ 
+ 		if (allocsize % hugepagesize != 0)
+ 			allocsize += hugepagesize - (allocsize % hugepagesize);

@@ -1,0 +1,82 @@
+Format: 1.8
+Date: Wed, 31 Aug 2016 14:57:20 +0200
+Source: postgresql-9.5
+Binary: libpq-dev libpq5 libecpg6 libecpg-dev libecpg-compat3 libpgtypes3 postgresql-9.5 postgresql-9.5-dbg postgresql-client-9.5 postgresql-server-dev-9.5 postgresql-doc-9.5 postgresql-contrib-9.5 postgresql-plperl-9.5 postgresql-plpython-9.5 postgresql-plpython3-9.5 postgresql-pltcl-9.5
+Architecture: ppc64el all
+Version: 9.5.4-1.pgdg16.04+ibmmoppslc
+Distribution: xenial
+Urgency: medium
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Changed-By: Sebastien Chabrolles <s.chabrolles@fr.ibm.com>
+Description:
+ libecpg-compat3 - older version of run-time library for ECPG programs
+ libecpg-dev - development files for ECPG (Embedded PostgreSQL for C)
+ libecpg6   - run-time library for ECPG programs
+ libpgtypes3 - shared library libpgtypes for PostgreSQL 9.5
+ libpq-dev  - header files for libpq5 (PostgreSQL library)
+ libpq5     - PostgreSQL C client library
+ postgresql-9.5 - object-relational SQL database, version 9.5 server
+ postgresql-9.5-dbg - debug symbols for postgresql-9.5
+ postgresql-client-9.5 - front-end programs for PostgreSQL 9.5
+ postgresql-contrib-9.5 - additional facilities for PostgreSQL
+ postgresql-doc-9.5 - documentation for the PostgreSQL database management system
+ postgresql-plperl-9.5 - PL/Perl procedural language for PostgreSQL 9.5
+ postgresql-plpython-9.5 - PL/Python procedural language for PostgreSQL 9.5
+ postgresql-plpython3-9.5 - PL/Python 3 procedural language for PostgreSQL 9.5
+ postgresql-pltcl-9.5 - PL/Tcl procedural language for PostgreSQL 9.5
+ postgresql-server-dev-9.5 - development files for PostgreSQL 9.5 server-side programming
+Changes:
+ postgresql-9.5 (9.5.4-1.pgdg16.04+ibmmoppslc) xenial; urgency=medium
+ .
+   * Change hugepagesize to 16M for Power arch
+Checksums-Sha1:
+ b475537f6deab2a500b79758c84f489478ce7a28 14252 libecpg-compat3_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 24d17e05948f04f499f8ddb0b119260f192e5b1b 211504 libecpg-dev_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ a902769c2ca2c1a35b36aedbe9aa8e97492bfdb9 77594 libecpg6_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ c32f2d4f21c22d8748c6a3581e2c9a57f1e644d1 37160 libpgtypes3_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 595ef3660890aab3759a53eaca56ad86ec74361a 181380 libpq-dev_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 45c944e6ff495064c06f1207d7823c5f083c260f 128248 libpq5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ b9dce8f52f6ced98e2384483c42a6addb6114ade 14638712 postgresql-9.5-dbg_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 58b13825f1398303f6be31efec127537d28b3c59 3810236 postgresql-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 16e075111504fc47c2c435f4faa766a3a25c7201 1159062 postgresql-client-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ b4373b9b2a4351e25301e60b5730a955a31cb2e8 456810 postgresql-contrib-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 2043564447320e36e2e80deee871c80f65a211e8 1933302 postgresql-doc-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_all.deb
+ d0f4851698f592ac3bfbe1e7d34d565ee3294cf0 59340 postgresql-plperl-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 02eb53fe2fe9772f839607d738ded2708536a809 44598 postgresql-plpython-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ caf9aed449b824d4b63a7cd537608393d458e2fa 43086 postgresql-plpython3-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ fd4934f9b3b65441c483b2a2f0da896c326e1013 30532 postgresql-pltcl-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 675d82fcc27da28d2602595d6b5350d5687744ab 719150 postgresql-server-dev-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+Checksums-Sha256:
+ fec6d2cb9d8e36d0883867cd3a7e0af47b5bb5f6cc7540c0579f69498a092992 14252 libecpg-compat3_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 927fa3687bc13f91693a3e290c4f17ca80b5d61048b946ce9cdc633e382cdf1d 211504 libecpg-dev_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ ec76af5eb7094f77f3ac9bd79790be657a4d3f73423a395c06fa8e0e78481ea6 77594 libecpg6_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 64cbf08024bd44eaa6345fd79f4b1475870405d91b8ce8034c7b11873928af49 37160 libpgtypes3_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ a6e7f294262b469dced1169033bb3ed9481332e26b31bb8b18949b616342cf34 181380 libpq-dev_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ f503705d34306b7d8c742eaafe4c1d5b5229a55e197fdcad830cd3393f149e0b 128248 libpq5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 8bd7d0864289170cfd9d5a69bdf68210f66f18f0df68ae5bd3c85c38ad15ce0d 14638712 postgresql-9.5-dbg_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ a4296bffa19e7dce5162342c9cf2cf995e1d872d07240eba2fd00b8b8c49707a 3810236 postgresql-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ dd391ddb122612683460239740e4bef01d09e700629895d1c196544a9bced242 1159062 postgresql-client-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ fdeb7809c5fb1bf10309a6bd6ab46633a3b1b03451888a35f86a8ff43756f62f 456810 postgresql-contrib-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ e9fe5bc5acc89d7744a974f7aa6740704a387c6f9cbef7bdd6e88bfbc2db4dad 1933302 postgresql-doc-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_all.deb
+ 3b0aa846325542e2931eddc82ecbcc78669a5e5d3c2ff42fd0d52a6b7f35ec1a 59340 postgresql-plperl-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ c2cf4299d5f709bc0e09983768cf37db577b45e185cd7a5079e3122109bd80a3 44598 postgresql-plpython-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ d489dd7da9542e7e59b4f4de97a782d89d99d8e46bdf00da8f434b9530fa1d9c 43086 postgresql-plpython3-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ f4842b42b38cb48d176621e2d7353c0c95bbff3ca82357e85a4d499e67610cbf 30532 postgresql-pltcl-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 6f00980770bd1a6721d8c3e108822d657344a5f1f0f2391a17134027ebff4c95 719150 postgresql-server-dev-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+Files:
+ 5bb56734133c1fcbad428395f1d0848c 14252 libs optional libecpg-compat3_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 18f8e54078c8e3213d88b5f7454f6cb8 211504 libdevel optional libecpg-dev_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ c5704b9402edfa9add851b5feef8770f 77594 libs optional libecpg6_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 1703122f3d324cfe95a1061af0d271ef 37160 libs optional libpgtypes3_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 1a6569048429d6aae16e91cad2e22a6f 181380 libdevel optional libpq-dev_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 876d24e52bfef32b7f0c3326866aa479 128248 libs optional libpq5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 71590bf1089cbd7d1dffcebb7614cbff 14638712 debug extra postgresql-9.5-dbg_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 6a096da3acb4b2f91c6d8b87a155703f 3810236 database optional postgresql-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 937c6f544cca339838c37795e9d75767 1159062 database optional postgresql-client-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 6d70fd4657ae1900c8a494dede2c9adc 456810 database optional postgresql-contrib-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 53f3180655bee22097b64d3cb5b56e3d 1933302 doc optional postgresql-doc-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_all.deb
+ 284bf151423ded458aba191782cada09 59340 database optional postgresql-plperl-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ cb613b999280d509d22da33fcb0ea0b5 44598 database optional postgresql-plpython-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 7b08e5b3d2c72c06acfa56d9f141fb9d 43086 database optional postgresql-plpython3-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ 6784aaa32f0a2383b92d7f52c3e88a59 30532 database optional postgresql-pltcl-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
+ f3013c8082e74b32e4c196e0a4cc5d48 719150 libdevel optional postgresql-server-dev-9.5_9.5.4-1.pgdg16.04+ibmmoppslc_ppc64el.deb
