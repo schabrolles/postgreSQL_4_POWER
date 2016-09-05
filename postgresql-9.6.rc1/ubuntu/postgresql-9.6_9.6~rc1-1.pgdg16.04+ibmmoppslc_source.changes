@@ -33,25 +33,25 @@ Changes:
  .
    * Change hugepagesize to 16M for Power arch
 Checksums-Sha1:
- f387088680d42cc9e97a78ffd6bb03d78b5aa7f6 3363 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.dsc
+ 12a044ebd492fb1987ce149e04631e7681e0a624 3299 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.dsc
  59031f6c1fd811f4d97ae3e456bd48e767a1a6ba 19161063 postgresql-9.6_9.6~rc1.orig.tar.bz2
- 23d698a5522d76537c1cebd0f683939a3d60da9f 19748 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+ 8d1bce849d49768e0edb48351e92df9581888e03 19752 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
 Checksums-Sha256:
- 427faeb4ccf19d9a71481b9228a1d41025ac9befcde51c66746bd87d61b72db7 3363 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.dsc
+ 5feda8ce7d32a89097265b67765f3dc95ece88ab52fb59bdde31372278f3a79b 3299 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.dsc
  9e260252f04b7f6abe3877eb1cb8affa4ecc2abbadadf9bd874ad257e9a01a1d 19161063 postgresql-9.6_9.6~rc1.orig.tar.bz2
- de1951420a4ec9ceb5863b3db18dcb0c2f4ae74f3ddeb3acdc6c23b84f850586 19748 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+ 462a2f82858aecd3736e5dd693ecee87aa123174ab6c889d5d16b8816cb75f01 19752 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
 Files:
- a3c6c61b4bcd054d62e03f7fdd82cbf8 3363 9.6/database optional postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.dsc
- ee9f4ee46f2e0c8c2e4e44ca310c4a86 19161063 9.6/database optional postgresql-9.6_9.6~rc1.orig.tar.bz2
- d047c455423f18bb9a508b1a7e7563a1 19748 9.6/database optional postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+ 5099903566316a3d1c1b7a4e7cab043a 3299 database optional postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.dsc
+ ee9f4ee46f2e0c8c2e4e44ca310c4a86 19161063 database optional postgresql-9.6_9.6~rc1.orig.tar.bz2
+ b6c24f62d34f1184a8e32e491388aa25 19752 database optional postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBAgAGBQJXzY5KAAoJEBupDnpHQrIZjM8H/j1MR5O3hihUm1yG13VwPo56
-eNGybo6l84kuQxuQsE3HQP/RSoh9vre/JNwr32ACSxz/iD+ZDG1boMnBPBP2W44W
-hPogpIO9blMwTCgzaNpkzyNnJ4K/rNosC+z+Qv5np006oWf6H3Hy0BL/T7Xn8aZ9
-qBOrGOajiLU71tgj0yau+yJOJb0n+fAdagmfNZb0vpM787lfOOOV1dEZ+U0/KREA
-BNi8ugtAFwbmPeaPneKKB5VdC0skhM1OBs8rv0t1TOxXAOc6QoRtq4yzBvEqVISr
-xydr0rsy2c1gozOs+kU0rUsqrB/GmZRRD0shqNHV0qF+R6o+AP3hpdI/Pl9YrkY=
-=/P5a
+iQEcBAEBAgAGBQJXzY+OAAoJEBupDnpHQrIZTlIH/3scmRMZ+hvRnGZPy8jM1Xay
+JTW1iLK1k/iTa7bSo5iufXMHnlXDl7Tzb77L5x9QmvmeQl7ndpH0S3wleaG/k8ZT
+fPcr4SYUB65vcZzamdUpzV9vuPv+VYY4KtMGtySsBaffgfwh7CMCM5mB28Garr5l
+Klp4ICTGVZzivf3Sb2LLP5myDru6lakxivDAdTKD2BCET0Z1AlLM54IQPnh2aLqf
+apf8OY8Ene2nrO0Nn1LijCK+mzebd154OX1yAHHX56beSI6xQSLM5mz7pzAZecKW
+64TGWrEZvafJI6Rvmi4ISyaV0nafRU3jzWP3Y7+joDOgNW/DFU6va/vuzgixfwU=
+=mNh8
 -----END PGP SIGNATURE-----

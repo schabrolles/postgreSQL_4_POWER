@@ -15,39 +15,39 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-postgresql/postgresql.git -b 9.6
 Testsuite: autopkgtest
 Build-Depends: bison, debhelper (>= 9~), dh-exec (>= 0.13~), docbook, docbook-dsssl, docbook-xml, docbook-xsl, dpkg-dev (>= 1.16.1~) | hardening-wrapper, flex, gettext, krb5-multidev, libedit-dev, libipc-run-perl, libldap2-dev, libpam0g-dev | libpam-dev, libperl-dev, libselinux1-dev [linux-any], libssl-dev, libsystemd-dev [linux-any], libxml2-dev, libxml2-utils, libxslt1-dev, openjade, opensp, perl (>= 5.8), python-dev, python3-dev, tcl8.6-dev | tcl8.5-dev, uuid-dev, xsltproc, zlib1g-dev | libz-dev
 Package-List:
- libecpg-compat3 deb 9.6/libs optional arch=any
- libecpg-dev deb 9.6/libdevel optional arch=any
- libecpg6 deb 9.6/libs optional arch=any
- libpgtypes3 deb 9.6/libs optional arch=any
- libpq-dev deb 9.6/libdevel optional arch=any
- libpq5 deb 9.6/libs optional arch=any
- postgresql-9.6 deb 9.6/database optional arch=any
- postgresql-9.6-dbg deb 9.6/debug extra arch=any
- postgresql-client-9.6 deb 9.6/database optional arch=any
- postgresql-contrib-9.6 deb 9.6/database optional arch=any
- postgresql-doc-9.6 deb 9.6/doc optional arch=all
- postgresql-plperl-9.6 deb 9.6/database optional arch=any
- postgresql-plpython-9.6 deb 9.6/database optional arch=any
- postgresql-plpython3-9.6 deb 9.6/database optional arch=any
- postgresql-pltcl-9.6 deb 9.6/database optional arch=any
- postgresql-server-dev-9.6 deb 9.6/libdevel optional arch=any
+ libecpg-compat3 deb libs optional arch=any
+ libecpg-dev deb libdevel optional arch=any
+ libecpg6 deb libs optional arch=any
+ libpgtypes3 deb libs optional arch=any
+ libpq-dev deb libdevel optional arch=any
+ libpq5 deb libs optional arch=any
+ postgresql-9.6 deb database optional arch=any
+ postgresql-9.6-dbg deb debug extra arch=any
+ postgresql-client-9.6 deb database optional arch=any
+ postgresql-contrib-9.6 deb database optional arch=any
+ postgresql-doc-9.6 deb doc optional arch=all
+ postgresql-plperl-9.6 deb database optional arch=any
+ postgresql-plpython-9.6 deb database optional arch=any
+ postgresql-plpython3-9.6 deb database optional arch=any
+ postgresql-pltcl-9.6 deb database optional arch=any
+ postgresql-server-dev-9.6 deb libdevel optional arch=any
 Checksums-Sha1:
  59031f6c1fd811f4d97ae3e456bd48e767a1a6ba 19161063 postgresql-9.6_9.6~rc1.orig.tar.bz2
- 23d698a5522d76537c1cebd0f683939a3d60da9f 19748 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+ 8d1bce849d49768e0edb48351e92df9581888e03 19752 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
 Checksums-Sha256:
  9e260252f04b7f6abe3877eb1cb8affa4ecc2abbadadf9bd874ad257e9a01a1d 19161063 postgresql-9.6_9.6~rc1.orig.tar.bz2
- de1951420a4ec9ceb5863b3db18dcb0c2f4ae74f3ddeb3acdc6c23b84f850586 19748 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+ 462a2f82858aecd3736e5dd693ecee87aa123174ab6c889d5d16b8816cb75f01 19752 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
 Files:
  ee9f4ee46f2e0c8c2e4e44ca310c4a86 19161063 postgresql-9.6_9.6~rc1.orig.tar.bz2
- d047c455423f18bb9a508b1a7e7563a1 19748 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+ b6c24f62d34f1184a8e32e491388aa25 19752 postgresql-9.6_9.6~rc1-1.pgdg16.04+ibmmoppslc.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBAgAGBQJXzY5EAAoJEBupDnpHQrIZBb4H/j3NmhSW9epOjB1lz09lUU5P
-aRuM4KKSvt7WP7wm2BuwiCSN7YHRmTdUrhS5eeS9yivcTc8dNLfqs4sPBlKu2VHs
-Gugf/xTQPfmoL5BOiDErR9iuOhxLOv/SxCOBrRj7Z5cYHX6RyrS2/yq1wzklE2MT
-02qiWV0x7YEchGZ+qnDGnpn1BrQEIbX1hlxwHGCJJQjy2WrRxMFpQXXBIkRBKRHq
-mCOlqwGIsPpuaO5hqTClugWXUrvpLVFqK6jZoS9YxnHogcv5aZM4CJF2JYW81AGk
-Etw+EmmRYqCtfkD5HEaO4BBACRdotuzrKq25JIYNtxklofeBuj7CJjRLh876Mrg=
-=kv+J
+iQEcBAEBAgAGBQJXzY+KAAoJEBupDnpHQrIZep0H/RMErDl1kIsWKskwqEeWHyWk
+bzHbVJkxqKY6IPHpLI8bvpTwYHl1CeM/x4LTvmkZpPtE4fEiVtS4PFh9GnZC+txK
+WiJgekq+TJr3z0toYiW8QwYKxNCsdxkg0kXDJdDcCF0UG0pySAVRRqWPtNVupJEn
+QrYGXHHee4x0ZlEE1muGm1Yt85Cjnd/1i4Pc0n5z+R0xMEE2JHCiw4W48w9XMZdE
+dPZHH6XiiDDJx1dyZjjVwWgHf4tunK67pr3PKkQ5AwcbYTtfXWuB8+DP5SGajADc
+IPfZF9j62Kj8zpD4IPHQ/2FChwSEH2wUt07GKBMwx/RchZvA7g2mDTtl0oi/5xc=
+=qT9E
 -----END PGP SIGNATURE-----
