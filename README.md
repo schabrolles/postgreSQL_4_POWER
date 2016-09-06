@@ -16,11 +16,9 @@ Note: We are currently working with the postgresql community to provide ppc64/pp
 Ubuntu binary packages are stored in Launchpad:
 [https://launchpad.net/~s-chabrolles/+archive/ubuntu/postgresql4power]([https://launchpad.net/~s-chabrolles/+archive/ubuntu/postgresql4power])
 
-`sudo add-apt-repository ppa:s-chabrolles/postgresql4power`
-
-`sudo apt-get update`
-
-`sudo apt-get install postgresql-9.6`
+    sudo add-apt-repository ppa:s-chabrolles/postgresql4power
+    sudo apt-get update
+    sudo apt-get install postgresql-9.6
 
 Note: We are currently working with the postgresql community to provide ppc64/ppc64le postgresql packages directly from their website ([postgresql.org](https://www.postgresql.org/)). This PPA will be closed when this will be officially done.
 
