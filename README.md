@@ -25,4 +25,5 @@ Note: We are currently working with the postgresql community to provide ppc64/pp
 ## Access to RedHat .rpm binary packages
 We are still searching the best way to provide rpm packages …
 
-Today the best would be => Drop me an email , I will share access to my packages (s.chabrolles@fr.ibm.com)
+Today the best would be to download RPMs from my box directory:
+([postgresql4powerRPM](https://ibm.box.com/v/postgresql4powerRPM))
