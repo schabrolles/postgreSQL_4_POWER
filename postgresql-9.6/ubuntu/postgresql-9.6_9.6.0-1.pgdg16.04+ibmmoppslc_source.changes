@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 30 Sep 2016 10:55:38 +0200
+Source: postgresql-9.6
+Binary: libpq-dev libpq5 libecpg6 libecpg-dev libecpg-compat3 libpgtypes3 postgresql-9.6 postgresql-9.6-dbg postgresql-client-9.6 postgresql-server-dev-9.6 postgresql-doc-9.6 postgresql-contrib-9.6 postgresql-plperl-9.6 postgresql-plpython-9.6 postgresql-plpython3-9.6 postgresql-pltcl-9.6
+Architecture: source
+Version: 9.6.0-1.pgdg16.04+ibmmoppslc
+Distribution: xenial
+Urgency: medium
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Changed-By: Sebastien Chabrolles <s.chabrolles@fr.ibm.com>
+Description:
+ libecpg-compat3 - older version of run-time library for ECPG programs
+ libecpg-dev - development files for ECPG (Embedded PostgreSQL for C)
+ libecpg6   - run-time library for ECPG programs
+ libpgtypes3 - shared library libpgtypes for PostgreSQL 9.6
+ libpq-dev  - header files for libpq5 (PostgreSQL library)
+ libpq5     - PostgreSQL C client library
+ postgresql-9.6 - object-relational SQL database, version 9.6 server
+ postgresql-9.6-dbg - debug symbols for postgresql-9.6
+ postgresql-client-9.6 - front-end programs for PostgreSQL 9.6
+ postgresql-contrib-9.6 - additional facilities for PostgreSQL
+ postgresql-doc-9.6 - documentation for the PostgreSQL database management system
+ postgresql-plperl-9.6 - PL/Perl procedural language for PostgreSQL 9.6
+ postgresql-plpython-9.6 - PL/Python procedural language for PostgreSQL 9.6
+ postgresql-plpython3-9.6 - PL/Python 3 procedural language for PostgreSQL 9.6
+ postgresql-pltcl-9.6 - PL/Tcl procedural language for PostgreSQL 9.6
+ postgresql-server-dev-9.6 - development files for PostgreSQL 9.6 server-side programming
+Changes:
+ postgresql-9.6 (9.6.0-1.pgdg16.04+ibmmoppslc) xenial; urgency=medium
+ .
+   * Change hugepagesize to 16M for Power arch
+Checksums-Sha1:
+ 12cd16d6d6be6c901d562be2cee00b53ce9b0d99 3265 postgresql-9.6_9.6.0-1.pgdg16.04+ibmmoppslc.dsc
+ 780af067540811e87a06ab65eb81e6c290b1fc5e 19157472 postgresql-9.6_9.6.0.orig.tar.bz2
+ 2e85a96151ca0905b80dc4a8fcc257a1b36ce0bc 20156 postgresql-9.6_9.6.0-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+Checksums-Sha256:
+ bfede12229641a8fb466f0388a851580f5873cef1e856b3d9f3ec0316b029b15 3265 postgresql-9.6_9.6.0-1.pgdg16.04+ibmmoppslc.dsc
+ 3b5fe9634b80a4511aac1832a087586a7caa8c3413619562bdda009a015863ce 19157472 postgresql-9.6_9.6.0.orig.tar.bz2
+ 13cc0755c221afcd37033d5c93ff527e75c8c0c5a0663b439fba06cf30ced21d 20156 postgresql-9.6_9.6.0-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+Files:
+ 1236c9a5434ad10d41f2e74dc58106a4 3265 database optional postgresql-9.6_9.6.0-1.pgdg16.04+ibmmoppslc.dsc
+ c5af6ebb790ab877e1d2e56e19cebb29 19157472 database optional postgresql-9.6_9.6.0.orig.tar.bz2
+ be02ef40e44bc77cb2388316ede9cd18 20156 database optional postgresql-9.6_9.6.0-1.pgdg16.04+ibmmoppslc.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEcBAEBAgAGBQJX7ilBAAoJEBupDnpHQrIZOogIAMjn9iG5UtfEHfDAlUvqdJbD
+kJ/AP+idNUOXllP3FBRKRE28gUME0Byb1keekgA1VeWOVufsh3uk847slRKEVwZv
+yFOtv9bpnLlSPzNvIkBv7rNUW/zzB8/oezQnGdQml8+xPjIQsvo1Awh8uqXyBrV+
+iadih2iDQYI9V0603y7jDlCxr8LqaOilY7V6qhp50NMUO2TEDFiWHYM2/pQISbcR
+uLgYRxJP8zRaM6zmxISegrJNnI4zkR7WzRW3SR6RmP2exIBC8T71AQs7xLhyKsqG
+/SbI6z4DeFOp+SlaTaQRgY95HymW9wD3tQ01aDujy/jWmI5eiLZ4z09/FDwGI8o=
+=IFOG
+-----END PGP SIGNATURE-----
