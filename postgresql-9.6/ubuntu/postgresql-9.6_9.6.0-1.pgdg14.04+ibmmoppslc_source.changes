@@ -33,25 +33,25 @@ Changes:
  .
    * Change hugepagesize to 16M for Power arch
 Checksums-Sha1:
- a5a57ff631db08026b50685b0f85d62b2845d84d 3237 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.dsc
+ 25b3d43cb26c06ddfd812a706ae37f647ee6da09 3226 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.dsc
  780af067540811e87a06ab65eb81e6c290b1fc5e 19157472 postgresql-9.6_9.6.0.orig.tar.bz2
- a0492b71d6c9fc6812b64b67521e755c159e9633 20148 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.debian.tar.xz
+ 8d288753cb9303a118f842644741777212b4c4bf 20132 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.debian.tar.xz
 Checksums-Sha256:
- bb53083a226f454a7f8386ad37e8ee23a0e8ca9e9184cf2d80417df8ae9ee3e2 3237 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.dsc
+ 71800cb6a20e31ef00f965062c3ccca84684fbf4480a5fbfdbcce3ba3029328b 3226 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.dsc
  3b5fe9634b80a4511aac1832a087586a7caa8c3413619562bdda009a015863ce 19157472 postgresql-9.6_9.6.0.orig.tar.bz2
- 772709f12c5cb08437a00db5f56b8e63624165a273e208532a534426ddcc06b5 20148 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.debian.tar.xz
+ 59a98c2dd6a6a0af077569f4d8efbb5866cca4aaedbeabeec654ec58cbcd6068 20132 postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.debian.tar.xz
 Files:
- ca9157925f5e149a44c773a386924fb9 3237 database optional postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.dsc
+ 957d425e3d4400c32b61cee3fcb42b9b 3226 database optional postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.dsc
  c5af6ebb790ab877e1d2e56e19cebb29 19157472 database optional postgresql-9.6_9.6.0.orig.tar.bz2
- cb2d41d192943e71e9e199a3fe8cce85 20148 database optional postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.debian.tar.xz
+ e72ddd6a4cc54afeb2dbab21631ef98f 20132 database optional postgresql-9.6_9.6.0-1.pgdg14.04+ibmmoppslc.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBAgAGBQJX7irLAAoJEBupDnpHQrIZXFwIAN4iT9LPcef+XA++8IZFP57Y
-zltXQBSSk8TcHWOWbhFeqepLRGb9e1k6KX8I5ij8ZKADt+29gfbezvGHFi1I6IDH
-TAmSPYnevGwSAs2FkQrUcetM1qgVM28ZPneRe5PGgooHFkU4hfgW5pqENKcZ/PPU
-TzRXqiCIUdaUktsfVJbrBFujypaeXbnlQ0bQ+F/sGqEPEkQ9+BLzX22WtL5uWjm+
-d2CcorJM9P3DM2LqwDVtcIO/ThupivsH7oGMcXjYDw4CHTOWqYwgBiDKc1JMJeWS
-vneoOujPnMNpqAFqu57ZoQF2rVrFT7wtGIu2uVEw3sjEf0Y08fmEEE42LCHTWts=
-=SfzP
+iQEcBAEBAgAGBQJX7nXnAAoJEBupDnpHQrIZ/+wIAMxA4trXh1I1g3y5LKPplWI7
+AyxpjmQiRPXqM29Ika5xN+9XHTYAJvBveeGC6MIiXmkg2bOY/zyyeM0Ld7OpUNeR
+88Q9cRHR/zu2pq8ikWlQ139KCwK2AD2hvTCZaapg7xFidJ+s6XE8GWV5SYDU4RTz
+IlvUlbeNzxPDrhmYMJeZgbxaEaVaX5PRNv06k80anWX45F3zYWovPzY+yLrldYFo
+vA33If6KwHtH2eRLU+FBlsImyVkP0xwQ8KerzCdMOZisyD+hSj+K6T7WI64KhOi0
+Afxvai3eb0xHbd7L1CVSHPtKMiPlkUuTofUhyw/esFR+u5XcVPDthMGJkFou4vM=
+=r66s
 -----END PGP SIGNATURE-----
