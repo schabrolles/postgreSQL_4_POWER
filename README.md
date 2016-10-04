@@ -4,7 +4,7 @@
 
 The purpose of this Git repository is to provide access to the latest postgresql packages for POWER  architecture.
 
-This repo contains Source files needed to rebuild your own packages by yourself; and some Power specific patches (like: 16MB hugepagesize support).
+This repo contains all the Source files needed to rebuild your own postgresql-server packages by yourself with some POWER specific patch (like: 16MB hugepagesize support).
 
 Link to compiled binary packages for Ubuntu and Redhat are provided in this Readme.
 Source files used to build the packages comes from the official postgresql.org website (http://apt.postgresql.org) plus additional patches for optimization (like: 16MB hugepagesize support).
