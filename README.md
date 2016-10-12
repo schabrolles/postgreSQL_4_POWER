@@ -27,6 +27,7 @@ Note: We are currently working with the postgresql community to provide ppc64/pp
 Yum repo available on ([https://repo.fury.io/schabrolles])
 
     Add those line to /etc/yum.repo.d/postgresql4power.repo
+
     [repo.fury.io_schabrolles_]
     name=added from: https://repo.fury.io/schabrolles/
     baseurl=https://repo.fury.io/schabrolles/
@@ -37,5 +38,5 @@ Yum repo available on ([https://repo.fury.io/schabrolles])
     yum install postgresql96-server
 
 
-Today the best would be to download RPMs from my box directory:
+You can also download RPMs from my box directory:
 ([postgresql4powerRPM](https://ibm.box.com/v/postgresql4powerRPM))
