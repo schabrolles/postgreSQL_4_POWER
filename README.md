@@ -26,13 +26,15 @@ Note: We are currently working with the postgresql community to provide ppc64/pp
 
 Yum repo available on ([https://repo.fury.io/schabrolles])
 
-    Add those line to /etc/yum.repo.d/postgresql4power.repo
+Add those line to /etc/yum.repo.d/postgresql4power.repo
 
     [repo.fury.io_schabrolles_]
     name=added from: https://repo.fury.io/schabrolles/
     baseurl=https://repo.fury.io/schabrolles/
     enabled=1
     gpgcheck=0
+
+And run the following command to install postgresql server (postgresql96 in this example).
 
     yum update
     yum install postgresql96-server
