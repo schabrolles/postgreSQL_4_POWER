@@ -23,7 +23,19 @@ Ubuntu binary packages are stored in Launchpad:
 Note: We are currently working with the postgresql community to provide ppc64/ppc64le postgresql packages directly from their website ([postgresql.org](https://www.postgresql.org/)). This PPA will be closed when this will be officially done.
 
 ## Access to RedHat .rpm binary packages
-We are still searching the best way to provide rpm packages …
+
+Yum repo available on ([https://repo.fury.io/schabrolles])
+
+    Add those line to /etc/yum.repo.d/postgresql4power.repo
+    [repo.fury.io_schabrolles_]
+    name=added from: https://repo.fury.io/schabrolles/
+    baseurl=https://repo.fury.io/schabrolles/
+    enabled=1
+    gpgcheck=0
+
+    yum update
+    yum install postgresql96-server
+
 
 Today the best would be to download RPMs from my box directory:
 ([postgresql4powerRPM](https://ibm.box.com/v/postgresql4powerRPM))
